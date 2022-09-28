@@ -1,0 +1,176 @@
+body {
+    /* aplicar un background con degradados azul y azul-negro */
+    background: rgb(4, 102, 104);
+    background: linear-gradient(90deg, rgba(34, 139, 140, 1) 0%, rgba(8, 7, 57, 1) 97%);
+
+}
+
+/* botones de la barra de navegacion */
+.nav-link {
+    font-weight: bold;
+    color: blue;
+}
+
+.nav-link a {
+    color: blue;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.nav-link:hover {
+    color: #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.nav-link a:hover {
+    color: #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* trabajar modificaciones de estilos en la columna */
+
+.row {
+    /* centrar las card */
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+
+/* Ajustas a la tarjeta */
+.card {
+    padding: 8px;
+    border-top: 5px;
+    margin: 5px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* centrar botones de las card */
+.btn-primary {
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Centrar objetso en el contenedor principal */
+.col-3 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/* clase  para la pantalla de mensaje */
+.alert alert-success {
+    color: green;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background: rgb(81, 114, 175);
+}
+
+.alert-success {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background: rgb(34, 139, 140);
+    background: linear-gradient(0deg, rgba(34, 139, 140, 1) 0%, rgba(22, 181, 186, 1) 13%, rgba(38, 7, 57, 0.5270483193277311) 76%);
+}
+
+/* dar negrita a las letras del contenedor */
+.container {
+    font-weight: bold;
+
+}
+
+/* estilo del pie de pagina */
+.col-12 text-center {
+    color: #fff;
+    font-size: 16px;
+}
+
+/* color blanco al texto del detalle final */
+.display-4 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.parrafo-final {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.lead {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* container del boton de paypal */
+
+#paypal-button-container {
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 20%;
+    height: 100%;
+    width: 50%;
+}
+
+/* estilo para el boton de paypal */
+.paypal-button {
+    color: #ffffff !important;
+    background-color: #009cde !important;
+    border-color: #009cde !important;
+    width: 60%;
+
+}
+
+.paypal-button:hover {
+    color: #ffffff !important;
+    background-color: #0077b3 !important;
+    border-color: #0077b3 !important;
+    width: 60%;
+
+}
+
+.paypal-button:active {
+    color: #ffffff !important;
+    background-color: #0077b3 !important;
+    border-color: #0077b3 !important;
+    width: 60%;
+
+}
+
+.paypal-button:focus {
+    color: #ffffff !important;
+    background-color: #0077b3 !important;
+    border-color: #0077b3 !important;
+    width: 60%;
+
+}
+
+.paypal-button:visited {
+    color: #ffffff !important;
+    background-color: #0077b3 !important;
+    border-color: #0077b3 !important;
+    width: 60%;
+
+}
+
+.paypal-button:link {
+    color: #ffffff !important;
+    background-color: #0077b3 !important;
+    border-color: #0077b3 !important;
+    width: 60%;
+}
